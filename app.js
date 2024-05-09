@@ -37,6 +37,25 @@ if ( plants > 78 ){
 
 plantsCondition(plantWeek1);
 
+const scientistPlant= 100
+
+try {
+    if (scientistPlant < 98){
+        console.log("Looking good!")
+    } else {
+       throw error
+
+    }
+} catch (error) {
+    console.log("too many plants!!!")
+}
+
+
+
+
+
+
+
 
 
 
