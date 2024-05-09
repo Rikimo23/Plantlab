@@ -18,6 +18,25 @@ const radius = 5;
 const minSpacePerplant = 0.8;
 const startingPlants = 20;
 
+function plantsCondition(plants){
+if ( plants > 78 ){
+    console.log("the capacity of the garden has been exceeded")
+}
+
+    if ( plants > 44 && plants < 78){
+        console.log("The garden is growing at an acceptable rat")
+    }
+
+    
+        if ( plants < 44){
+            console.log("There is room to grow more plants")
+        }
+        
+
+}
+
+plantsCondition(plantWeek1);
+
 
 
 
