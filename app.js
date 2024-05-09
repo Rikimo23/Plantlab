@@ -8,7 +8,9 @@
 // const area = PI * radius * radius;
 // Each plant requires a minimum space of 0.8 square meters.
 
+const area = 3.1415 * 5 *5
 
+console.log( area);
 
 
 const PI = 3.1415;
